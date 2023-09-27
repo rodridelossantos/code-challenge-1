@@ -7,16 +7,23 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="contenedor-datos">
-      <h1>Code Challenge</h1>
-      <label for="nombre"></label>
-      <input type="text" id="nombre" name="nombre" placeholder="Nombre" />
-      <label for="apellido"></label>
-      <input type="text" id="apellido" name="apellido" placeholder="Apellido" />
-      <label for="fecha-nacimiento"></label>
-      <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" />
-      <button id="btn-enviar">Enviar</button>
+    <div id="contenedor-flex">
+      <div id="contenedor-datos">
+        <h1>Code Challenge</h1>
+        <label for="nombre"></label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre" />
+        <label for="apellido"></label>
+        <input
+          type="text"
+          id="apellido"
+          name="apellido"
+          placeholder="Apellido" />
+        <label for="fecha-nacimiento"></label>
+        <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" />
+        <button id="btn-enviar">Enviar</button>
+      </div>
     </div>
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </body>
 </html>
