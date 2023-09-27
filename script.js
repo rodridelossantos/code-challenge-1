@@ -28,5 +28,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let data = await enviarDatos(datosFormulario);
     console.log(data);
+    Swal.fire({
+      icon: "success",
+      title: "Datos enviados correctamente",
+      showConfirmButton: false,
+      timer: 1500,
+    });
   });
 });
